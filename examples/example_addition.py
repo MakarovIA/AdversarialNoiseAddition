@@ -4,6 +4,8 @@ import os
 if __name__ == '__main__':
     image_dir_path = 'data'
     save_dir_path = 'adversarial_data'
+    os.makedirs(save_dir_path, exist_ok=True)
+
     os.path.join(save_dir_path)
 
     image_file = 'panda.jpg'
